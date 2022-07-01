@@ -1,0 +1,245 @@
+﻿  stb_image.cpp
+  camera.cpp
+  cubemap_texture.cpp
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\cubemap_texture.cpp(80,119): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  font_shader.cpp
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\font_shader.cpp(108,36): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  freetypeGL.cpp
+  glut_backend.cpp
+  io_buffer.cpp
+  main.cpp
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\main.cpp(109,34): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  math_3d.cpp
+  ogldev_all.cpp
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\cubemap_texture.cpp(80,119): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  ogldev_app.cpp
+  ogldev_atb.cpp
+  ogldev_backend.cpp
+  ogldev_basic_glfw_camera.cpp
+  ogldev_basic_lighting.cpp
+  ogldev_basic_mesh.cpp
+  ogldev_flat_passthru_technique.cpp
+  ogldev_glfw.cpp
+  ogldev_glfw_backend.cpp
+  ogldev_new_lighting.cpp
+  Generating Code...
+  Compiling...
+  ogldev_shadow_map_fbo.cpp
+  ogldev_skinned_mesh.cpp
+  ogldev_sprite_technique.cpp
+  ogldev_texture.cpp
+  ogldev_tex_technique.cpp
+  ogldev_util.cpp
+  ogldev_vulkan.cpp
+  ogldev_vulkan_core.cpp
+  ogldev_win32_control.cpp
+  ogldev_world_transform.cpp
+  ogldev_xcb_control.cpp
+  pipeline.cpp
+  random_texture.cpp
+  technique.cpp
+  Generating Code...
+  font-manager.c
+  texture-atlas.c
+  texture-font.c
+  texture-glyph.c
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(83,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(84,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(128,28): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(129,34): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(141,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(142,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(143,1): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(144,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(149,1): warning C4267: 'initializing': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(181,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(182,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(183,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(184,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Xarthy\source\repos\OpenGLApplication\OpenGLApplication\FreetypeGL\texture-glyph.c(191,1): warning C4267: 'initializing': conversion from 'size_t' to 'GLuint', possible loss of data
+  vector.c
+  vertex-buffer.c
+  Generating Code...
+ogldev_all.obj : error LNK2005: "public: __cdecl Camera::Camera(int,int)" (??0Camera@@QEAA@HH@Z) already defined in camera.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl Camera::Camera(int,int,struct Vector3f const &,struct Vector3f const &,struct Vector3f const &)" (??0Camera@@QEAA@HHAEBUVector3f@@00@Z) already defined in camera.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl CubemapTexture::CubemapTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0CubemapTexture@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@000000@Z) already defined in cubemap_texture.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl IOBuffer::IOBuffer(void)" (??0IOBuffer@@QEAA@XZ) already defined in io_buffer.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl Quaternion::Quaternion(float,struct Vector3f const &)" (??0Quaternion@@QEAA@MAEBUVector3f@@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl Quaternion::Quaternion(float,float,float,float)" (??0Quaternion@@QEAA@MMMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl CubemapTexture::~CubemapTexture(void)" (??1CubemapTexture@@QEAA@XZ) already defined in cubemap_texture.obj
+ogldev_all.obj : error LNK2005: "public: __cdecl IOBuffer::~IOBuffer(void)" (??1IOBuffer@@QEAA@XZ) already defined in io_buffer.obj
+ogldev_all.obj : error LNK2005: "struct Quaternion __cdecl operator*(struct Quaternion const &,struct Quaternion const &)" (??D@YA?AUQuaternion@@AEBU0@0@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "struct Quaternion __cdecl operator*(struct Quaternion const &,struct Vector3f const &)" (??D@YA?AUQuaternion@@AEBU0@AEBUVector3f@@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl CubemapTexture::Bind(unsigned int)" (?Bind@CubemapTexture@@QEAAXI@Z) already defined in cubemap_texture.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl IOBuffer::BindForReading(unsigned int)" (?BindForReading@IOBuffer@@QEAAXI@Z) already defined in io_buffer.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl IOBuffer::BindForWriting(void)" (?BindForWriting@IOBuffer@@QEAAXXZ) already defined in io_buffer.obj
+ogldev_all.obj : error LNK2005: "public: struct Quaternion __cdecl Quaternion::Conjugate(void)const " (?Conjugate@Quaternion@@QEBA?AU1@XZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: struct Vector3f __cdecl Vector3f::Cross(struct Vector3f const &)const " (?Cross@Vector3f@@QEBA?AU1@AEBU1@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: float __cdecl Matrix4f::Determinant(void)const " (?Determinant@Matrix4f@@QEBAMXZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "bool __cdecl GLUTBackendCreateWindow(unsigned int,unsigned int,bool,char const *)" (?GLUTBackendCreateWindow@@YA_NII_NPEBD@Z) already defined in glut_backend.obj
+ogldev_all.obj : error LNK2005: "void __cdecl GLUTBackendInit(int,char * *,bool,bool)" (?GLUTBackendInit@@YAXHPEAPEAD_N1@Z) already defined in glut_backend.obj
+ogldev_all.obj : error LNK2005: "void __cdecl GLUTBackendLeaveMainLoop(void)" (?GLUTBackendLeaveMainLoop@@YAXXZ) already defined in glut_backend.obj
+ogldev_all.obj : error LNK2005: "void __cdecl GLUTBackendRun(class ICallbacks *)" (?GLUTBackendRun@@YAXPEAVICallbacks@@@Z) already defined in glut_backend.obj
+ogldev_all.obj : error LNK2005: "void __cdecl GLUTBackendSwapBuffers(void)" (?GLUTBackendSwapBuffers@@YAXXZ) already defined in glut_backend.obj
+ogldev_all.obj : error LNK2005: "enum OGLDEV_KEY __cdecl GLUTKeyToOGLDEVKey(unsigned int)" (?GLUTKeyToOGLDEVKey@@YA?AW4OGLDEV_KEY@@I@Z) already defined in glut_backend.obj
+ogldev_all.obj : error LNK2005: "private: void __cdecl Camera::Init(void)" (?Init@Camera@@AEAAXXZ) already defined in camera.obj
+ogldev_all.obj : error LNK2005: "public: bool __cdecl IOBuffer::Init(unsigned int,unsigned int,bool,unsigned int)" (?Init@IOBuffer@@QEAA_NII_NI@Z) already defined in io_buffer.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitCameraTransform(struct Vector3f const &,struct Vector3f const &,struct Vector3f const &)" (?InitCameraTransform@Matrix4f@@QEAAXAEBUVector3f@@00@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitCameraTransform(struct Vector3f const &,struct Vector3f const &)" (?InitCameraTransform@Matrix4f@@QEAAXAEBUVector3f@@0@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitOrthoProjTransform(struct OrthoProjInfo const &)" (?InitOrthoProjTransform@Matrix4f@@QEAAXAEBUOrthoProjInfo@@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitPersProjTransform(struct PersProjInfo const &)" (?InitPersProjTransform@Matrix4f@@QEAAXAEBUPersProjInfo@@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitRotateTransform(struct Quaternion const &)" (?InitRotateTransform@Matrix4f@@QEAAXAEBUQuaternion@@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitRotateTransform(float,float,float)" (?InitRotateTransform@Matrix4f@@QEAAXMMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitRotateTransformZYX(float,float,float)" (?InitRotateTransformZYX@Matrix4f@@QEAAXMMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "private: void __cdecl Matrix4f::InitRotationX(float)" (?InitRotationX@Matrix4f@@AEAAXM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "private: void __cdecl Matrix4f::InitRotationY(float)" (?InitRotationY@Matrix4f@@AEAAXM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "private: void __cdecl Matrix4f::InitRotationZ(float)" (?InitRotationZ@Matrix4f@@AEAAXM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitScaleTransform(float,float,float)" (?InitScaleTransform@Matrix4f@@QEAAXMMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitTranslationTransform(struct Vector3f const &)" (?InitTranslationTransform@Matrix4f@@QEAAXAEBUVector3f@@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Matrix4f::InitTranslationTransform(float,float,float)" (?InitTranslationTransform@Matrix4f@@QEAAXMMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: class Matrix4f __cdecl Matrix4f::Inverse(void)const " (?Inverse@Matrix4f@@QEBA?AV1@XZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: bool __cdecl CubemapTexture::Load(void)" (?Load@CubemapTexture@@QEAA_NXZ) already defined in cubemap_texture.obj
+ogldev_all.obj : error LNK2005: "public: struct Vector3f __cdecl Vector3f::Negate(void)const " (?Negate@Vector3f@@QEBA?AU1@XZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Quaternion::Normalize(void)" (?Normalize@Quaternion@@QEAAXXZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: struct Vector3f & __cdecl Vector3f::Normalize(void)" (?Normalize@Vector3f@@QEAAAEAU1@XZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: bool __cdecl Camera::OnKeyboard(enum OGLDEV_KEY)" (?OnKeyboard@Camera@@QEAA_NW4OGLDEV_KEY@@@Z) already defined in camera.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Camera::OnMouse(int,int)" (?OnMouse@Camera@@QEAAXHH@Z) already defined in camera.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Camera::OnRender(void)" (?OnRender@Camera@@QEAAXXZ) already defined in camera.obj
+ogldev_all.obj : error LNK2005: "float __cdecl RandomFloat(void)" (?RandomFloat@@YAMXZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: void __cdecl Vector3f::Rotate(float,struct Vector3f const &)" (?Rotate@Vector3f@@QEAAXMAEBU1@@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "float __cdecl ToDegreef(float)" (?ToDegreef@@YAMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "public: struct Vector3f __cdecl Quaternion::ToDegrees(void)" (?ToDegrees@Quaternion@@QEAA?AUVector3f@@XZ) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "float __cdecl ToRadianf(float)" (?ToRadianf@@YAMM@Z) already defined in math_3d.obj
+ogldev_all.obj : error LNK2005: "private: void __cdecl Camera::Update(void)" (?Update@Camera@@AEAAXXZ) already defined in camera.obj
+ogldev_app.obj : error LNK2005: "protected: __cdecl OgldevApp::OgldevApp(void)" (??0OgldevApp@@IEAA@XZ) already defined in ogldev_all.obj
+ogldev_app.obj : error LNK2005: "protected: void __cdecl OgldevApp::CalcFPS(void)" (?CalcFPS@OgldevApp@@IEAAXXZ) already defined in ogldev_all.obj
+ogldev_app.obj : error LNK2005: "protected: float __cdecl OgldevApp::GetRunningTime(void)" (?GetRunningTime@OgldevApp@@IEAAMXZ) already defined in ogldev_all.obj
+ogldev_app.obj : error LNK2005: "protected: void __cdecl OgldevApp::RenderFPS(void)" (?RenderFPS@OgldevApp@@IEAAXXZ) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "public: __cdecl ATB::ATB(void)" (??0ATB@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "public: bool __cdecl ATB::Init(void)" (?Init@ATB@@QEAA_NXZ) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "public: bool __cdecl ATB::KeyboardCB(enum OGLDEV_KEY)" (?KeyboardCB@ATB@@QEAA_NW4OGLDEV_KEY@@@Z) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "public: bool __cdecl ATB::MouseCB(enum OGLDEV_MOUSE,enum OGLDEV_KEY_STATE,int,int)" (?MouseCB@ATB@@QEAA_NW4OGLDEV_MOUSE@@W4OGLDEV_KEY_STATE@@HH@Z) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "public: bool __cdecl ATB::PassiveMouseCB(int,int)" (?PassiveMouseCB@ATB@@QEAA_NHH@Z) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "enum ETwType TW_TYPE_OGLDEV_VECTOR3F" (?TW_TYPE_OGLDEV_VECTOR3F@@3W4ETwType@@A) already defined in ogldev_all.obj
+ogldev_atb.obj : error LNK2005: "enum ETwType TW_TYPE_OGLDEV_ATTENUATION" (?TW_TYPE_OGLDEV_ATTENUATION@@3W4ETwType@@A) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "bool __cdecl OgldevBackendCreateWindow(unsigned int,unsigned int,bool,char const *)" (?OgldevBackendCreateWindow@@YA_NII_NPEBD@Z) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "void __cdecl OgldevBackendInit(enum OGLDEV_BACKEND_TYPE,int,char * *,bool,bool)" (?OgldevBackendInit@@YAXW4OGLDEV_BACKEND_TYPE@@HPEAPEAD_N2@Z) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "void __cdecl OgldevBackendLeaveMainLoop(void)" (?OgldevBackendLeaveMainLoop@@YAXXZ) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "void __cdecl OgldevBackendRun(class ICallbacks *)" (?OgldevBackendRun@@YAXPEAVICallbacks@@@Z) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "void __cdecl OgldevBackendSetMousePos(unsigned int,unsigned int)" (?OgldevBackendSetMousePos@@YAXII@Z) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "void __cdecl OgldevBackendSwapBuffers(void)" (?OgldevBackendSwapBuffers@@YAXXZ) already defined in ogldev_all.obj
+ogldev_backend.obj : error LNK2005: "void __cdecl OgldevBackendTerminate(void)" (?OgldevBackendTerminate@@YAXXZ) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: __cdecl BasicLightingTechnique::BasicLightingTechnique(void)" (??0BasicLightingTechnique@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: virtual bool __cdecl BasicLightingTechnique::Init(void)" (?Init@BasicLightingTechnique@@UEAA_NXZ) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetColorMod(struct Vector4f const &)" (?SetColorMod@BasicLightingTechnique@@QEAAXAEBUVector4f@@@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetColorTextureUnit(unsigned int)" (?SetColorTextureUnit@BasicLightingTechnique@@QEAAXI@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetDirectionalLight(class DirectionalLight const &)" (?SetDirectionalLight@BasicLightingTechnique@@QEAAXAEBVDirectionalLight@@@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetEyeWorldPos(struct Vector3f const &)" (?SetEyeWorldPos@BasicLightingTechnique@@QEAAXAEBUVector3f@@@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetMatSpecularIntensity(float)" (?SetMatSpecularIntensity@BasicLightingTechnique@@QEAAXM@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetMatSpecularPower(float)" (?SetMatSpecularPower@BasicLightingTechnique@@QEAAXM@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetPointLights(unsigned int,class PointLight const *)" (?SetPointLights@BasicLightingTechnique@@QEAAXIPEBVPointLight@@@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetSpotLights(unsigned int,class SpotLight const *)" (?SetSpotLights@BasicLightingTechnique@@QEAAXIPEBVSpotLight@@@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetWVP(class Matrix4f const &)" (?SetWVP@BasicLightingTechnique@@QEAAXAEBVMatrix4f@@@Z) already defined in ogldev_all.obj
+ogldev_basic_lighting.obj : error LNK2005: "public: void __cdecl BasicLightingTechnique::SetWorldMatrix(class Matrix4f const &)" (?SetWorldMatrix@BasicLightingTechnique@@QEAAXAEBVMatrix4f@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: __cdecl BasicMesh::~BasicMesh(void)" (??1BasicMesh@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::Clear(void)" (?Clear@BasicMesh@@AEAAXXZ) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::CountVerticesAndIndices(struct aiScene const *,unsigned int &,unsigned int &)" (?CountVerticesAndIndices@BasicMesh@@AEAAXPEBUaiScene@@AEAI1@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl GetDirFromFilename(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetDirFromFilename@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: void __cdecl BasicMesh::GetLeadingVertex(unsigned int,unsigned int,struct Vector3f &)" (?GetLeadingVertex@BasicMesh@@QEAAXIIAEAUVector3f@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: class Material const & __cdecl BasicMesh::GetMaterial(void)" (?GetMaterial@BasicMesh@@QEAAAEBVMaterial@@XZ) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::InitAllMeshes(struct aiScene const *)" (?InitAllMeshes@BasicMesh@@AEAAXPEBUaiScene@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: bool __cdecl BasicMesh::InitFromScene(struct aiScene const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?InitFromScene@BasicMesh@@AEAA_NPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: bool __cdecl BasicMesh::InitMaterials(struct aiScene const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?InitMaterials@BasicMesh@@AEAA_NPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::InitSingleMesh(struct aiMesh const *)" (?InitSingleMesh@BasicMesh@@AEAAXPEBUaiMesh@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::LoadColors(struct aiMaterial const *,int)" (?LoadColors@BasicMesh@@AEAAXPEBUaiMaterial@@H@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::LoadDiffuseTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct aiMaterial const *,int)" (?LoadDiffuseTexture@BasicMesh@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBUaiMaterial@@H@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: bool __cdecl BasicMesh::LoadMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadMesh@BasicMesh@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::LoadSpecularTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct aiMaterial const *,int)" (?LoadSpecularTexture@BasicMesh@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBUaiMaterial@@H@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::LoadTextures(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct aiMaterial const *,int)" (?LoadTextures@BasicMesh@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBUaiMaterial@@H@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::PopulateBuffers(void)" (?PopulateBuffers@BasicMesh@@AEAAXXZ) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: void __cdecl BasicMesh::Render(unsigned int,unsigned int)" (?Render@BasicMesh@@QEAAXII@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: void __cdecl BasicMesh::Render(unsigned int,class Matrix4f const *,class Matrix4f const *)" (?Render@BasicMesh@@QEAAXIPEBVMatrix4f@@0@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "public: void __cdecl BasicMesh::Render(class IRenderCallbacks *)" (?Render@BasicMesh@@QEAAXPEAVIRenderCallbacks@@@Z) already defined in ogldev_all.obj
+ogldev_basic_mesh.obj : error LNK2005: "private: void __cdecl BasicMesh::ReserveSpace(unsigned int,unsigned int)" (?ReserveSpace@BasicMesh@@AEAAXII@Z) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "bool __cdecl GLFWBackendCreateWindow(unsigned int,unsigned int,bool,char const *)" (?GLFWBackendCreateWindow@@YA_NII_NPEBD@Z) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWBackendInit(int,char * *,bool,bool)" (?GLFWBackendInit@@YAXHPEAPEAD_N1@Z) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWBackendLeaveMainLoop(void)" (?GLFWBackendLeaveMainLoop@@YAXXZ) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWBackendRun(class ICallbacks *)" (?GLFWBackendRun@@YAXPEAVICallbacks@@@Z) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWBackendSetMousePos(unsigned int,unsigned int)" (?GLFWBackendSetMousePos@@YAXII@Z) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWBackendSwapBuffers(void)" (?GLFWBackendSwapBuffers@@YAXXZ) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWBackendTerminate(void)" (?GLFWBackendTerminate@@YAXXZ) already defined in ogldev_all.obj
+ogldev_glfw_backend.obj : error LNK2005: "void __cdecl GLFWErrorCallback(int,char const *)" (?GLFWErrorCallback@@YAXHPEBD@Z) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: __cdecl CascadedShadowMapFBO::CascadedShadowMapFBO(void)" (??0CascadedShadowMapFBO@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: __cdecl ShadowMapFBO::ShadowMapFBO(void)" (??0ShadowMapFBO@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: __cdecl CascadedShadowMapFBO::~CascadedShadowMapFBO(void)" (??1CascadedShadowMapFBO@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: __cdecl ShadowMapFBO::~ShadowMapFBO(void)" (??1ShadowMapFBO@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: void __cdecl CascadedShadowMapFBO::BindForReading(void)" (?BindForReading@CascadedShadowMapFBO@@QEAAXXZ) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: void __cdecl ShadowMapFBO::BindForReading(unsigned int)" (?BindForReading@ShadowMapFBO@@QEAAXI@Z) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: void __cdecl CascadedShadowMapFBO::BindForWriting(unsigned int)" (?BindForWriting@CascadedShadowMapFBO@@QEAAXI@Z) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: void __cdecl ShadowMapFBO::BindForWriting(void)" (?BindForWriting@ShadowMapFBO@@QEAAXXZ) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: bool __cdecl CascadedShadowMapFBO::Init(unsigned int,unsigned int)" (?Init@CascadedShadowMapFBO@@QEAA_NII@Z) already defined in ogldev_all.obj
+ogldev_shadow_map_fbo.obj : error LNK2005: "public: bool __cdecl ShadowMapFBO::Init(unsigned int,unsigned int)" (?Init@ShadowMapFBO@@QEAA_NII@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "public: __cdecl SkinnedMesh::SkinnedMesh(void)" (??0SkinnedMesh@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "public: __cdecl SkinnedMesh::~SkinnedMesh(void)" (??1SkinnedMesh@@QEAA@XZ) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "public: void __cdecl SkinnedMesh::VertexBoneData::AddBoneData(unsigned int,float)" (?AddBoneData@VertexBoneData@SkinnedMesh@@QEAAXIM@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "public: void __cdecl SkinnedMesh::BoneTransform(float,class std::vector<class Matrix4f,class std::allocator<class Matrix4f> > &)" (?BoneTransform@SkinnedMesh@@QEAAXMAEAV?$vector@VMatrix4f@@V?$allocator@VMatrix4f@@@std@@@std@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::CalcInterpolatedPosition(class aiVector3t<float> &,float,struct aiNodeAnim const *)" (?CalcInterpolatedPosition@SkinnedMesh@@AEAAXAEAV?$aiVector3t@M@@MPEBUaiNodeAnim@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::CalcInterpolatedRotation(class aiQuaterniont<float> &,float,struct aiNodeAnim const *)" (?CalcInterpolatedRotation@SkinnedMesh@@AEAAXAEAV?$aiQuaterniont@M@@MPEBUaiNodeAnim@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::CalcInterpolatedScaling(class aiVector3t<float> &,float,struct aiNodeAnim const *)" (?CalcInterpolatedScaling@SkinnedMesh@@AEAAXAEAV?$aiVector3t@M@@MPEBUaiNodeAnim@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::Clear(void)" (?Clear@SkinnedMesh@@AEAAXXZ) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: struct aiNodeAnim const * __cdecl SkinnedMesh::FindNodeAnim(struct aiAnimation const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?FindNodeAnim@SkinnedMesh@@AEAAPEBUaiNodeAnim@@PEBUaiAnimation@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: unsigned int __cdecl SkinnedMesh::FindPosition(float,struct aiNodeAnim const *)" (?FindPosition@SkinnedMesh@@AEAAIMPEBUaiNodeAnim@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: unsigned int __cdecl SkinnedMesh::FindRotation(float,struct aiNodeAnim const *)" (?FindRotation@SkinnedMesh@@AEAAIMPEBUaiNodeAnim@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: unsigned int __cdecl SkinnedMesh::FindScaling(float,struct aiNodeAnim const *)" (?FindScaling@SkinnedMesh@@AEAAIMPEBUaiNodeAnim@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: bool __cdecl SkinnedMesh::InitFromScene(struct aiScene const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?InitFromScene@SkinnedMesh@@AEAA_NPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: bool __cdecl SkinnedMesh::InitMaterials(struct aiScene const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?InitMaterials@SkinnedMesh@@AEAA_NPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::InitMesh(unsigned int,struct aiMesh const *,class std::vector<struct Vector3f,class std::allocator<struct Vector3f> > &,class std::vector<struct Vector3f,class std::allocator<struct Vector3f> > &,class std::vector<struct Vector2f,class std::allocator<struct Vector2f> > &,class std::vector<struct SkinnedMesh::VertexBoneData,class std::allocator<struct SkinnedMesh::VertexBoneData> > &,class std::vector<unsigned int,class std::allocator<unsigned int> > &)" (?InitMesh@SkinnedMesh@@AEAAXIPEBUaiMesh@@AEAV?$vector@UVector3f@@V?$allocator@UVector3f@@@std@@@std@@1AEAV?$vector@UVector2f@@V?$allocator@UVector2f@@@std@@@4@AEAV?$vector@UVertexBoneData@SkinnedMesh@@V?$allocator@UVertexBoneData@SkinnedMesh@@@std@@@4@AEAV?$vector@IV?$allocator@I@std@@@4@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::LoadBones(unsigned int,struct aiMesh const *,class std::vector<struct SkinnedMesh::VertexBoneData,class std::allocator<struct SkinnedMesh::VertexBoneData> > &)" (?LoadBones@SkinnedMesh@@AEAAXIPEBUaiMesh@@AEAV?$vector@UVertexBoneData@SkinnedMesh@@V?$allocator@UVertexBoneData@SkinnedMesh@@@std@@@std@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "public: bool __cdecl SkinnedMesh::LoadMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadMesh@SkinnedMesh@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "private: void __cdecl SkinnedMesh::ReadNodeHierarchy(float,struct aiNode const *,class Matrix4f const &)" (?ReadNodeHierarchy@SkinnedMesh@@AEAAXMPEBUaiNode@@AEBVMatrix4f@@@Z) already defined in ogldev_all.obj
+ogldev_skinned_mesh.obj : error LNK2005: "public: void __cdecl SkinnedMesh::Render(void)" (?Render@SkinnedMesh@@QEAAXXZ) already defined in ogldev_all.obj
+ogldev_texture.obj : error LNK2005: "public: __cdecl Texture::Texture(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Texture@@QEAA@IAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_texture.obj : error LNK2005: "public: void __cdecl Texture::Bind(unsigned int)" (?Bind@Texture@@QEAAXI@Z) already defined in ogldev_all.obj
+ogldev_texture.obj : error LNK2005: "public: bool __cdecl Texture::Load(void)" (?Load@Texture@@QEAA_NXZ) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "__int64 __cdecl GetCurrentTimeMillis(void)" (?GetCurrentTimeMillis@@YA_JXZ) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "void __cdecl OgldevError(char const *,unsigned int,char const *,...)" (?OgldevError@@YAXPEBDI0ZZ) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "void __cdecl OgldevFileError(char const *,unsigned int,char const *)" (?OgldevFileError@@YAXPEBDI0@Z) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "char * __cdecl ReadBinaryFile(char const *,int &)" (?ReadBinaryFile@@YAPEADPEBDAEAH@Z) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "bool __cdecl ReadFile(char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?ReadFile@@YA_NPEBDAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "void __cdecl glDebugOutput(unsigned int,unsigned int,unsigned int,unsigned int,int,char const *,void const *)" (?glDebugOutput@@YAXIIIIHPEBDPEBX@Z) already defined in ogldev_all.obj
+ogldev_util.obj : error LNK2005: "void __cdecl gl_check_error(char const *,char const *,int)" (?gl_check_error@@YAXPEBD0H@Z) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetProjTrans(void)" (?GetProjTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetVPTrans(void)" (?GetVPTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetViewTrans(void)" (?GetViewTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetWPTrans(void)" (?GetWPTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetWVOrthoPTrans(void)" (?GetWVOrthoPTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetWVPTrans(void)" (?GetWVPTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetWVTrans(void)" (?GetWVTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+pipeline.obj : error LNK2005: "public: class Matrix4f const & __cdecl Pipeline::GetWorldTrans(void)" (?GetWorldTrans@Pipeline@@QEAAAEBVMatrix4f@@XZ) already defined in ogldev_all.obj
+random_texture.obj : error LNK2005: "public: __cdecl RandomTexture::RandomTexture(void)" (??0RandomTexture@@QEAA@XZ) already defined in ogldev_all.obj
+random_texture.obj : error LNK2005: "public: __cdecl RandomTexture::~RandomTexture(void)" (??1RandomTexture@@QEAA@XZ) already defined in ogldev_all.obj
+random_texture.obj : error LNK2005: "public: void __cdecl RandomTexture::Bind(unsigned int)" (?Bind@RandomTexture@@QEAAXI@Z) already defined in ogldev_all.obj
+random_texture.obj : error LNK2005: "public: bool __cdecl RandomTexture::Init(unsigned int)" (?Init@RandomTexture@@QEAA_NI@Z) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "public: __cdecl Technique::Technique(void)" (??0Technique@@QEAA@XZ) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "public: virtual __cdecl Technique::~Technique(void)" (??1Technique@@UEAA@XZ) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "protected: bool __cdecl Technique::AddShader(unsigned int,char const *)" (?AddShader@Technique@@IEAA_NIPEBD@Z) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "public: void __cdecl Technique::Enable(void)" (?Enable@Technique@@QEAAXXZ) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "protected: bool __cdecl Technique::Finalize(void)" (?Finalize@Technique@@IEAA_NXZ) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "protected: int __cdecl Technique::GetUniformLocation(char const *)" (?GetUniformLocation@Technique@@IEAAHPEBD@Z) already defined in ogldev_all.obj
+technique.obj : error LNK2005: "public: virtual bool __cdecl Technique::Init(void)" (?Init@Technique@@UEAA_NXZ) already defined in ogldev_all.obj
+cubemap_texture.obj : error LNK2019: unresolved external symbol "public: __cdecl Magick::Blob::Blob(void)" (??0Blob@Magick@@QEAA@XZ) referenced in function "public: bool __cdecl CubemapTexture::Load(void)" (?Load@CubemapTexture@@QEAA_NXZ)
+ogldev_all.obj : error LNK2001: unresolved external symbol "public: __cdecl Magick::Blob::Blob(void)" (??0Blob@Magick@@QEAA@XZ)
+cubemap_texture.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Magick::Blob::~Blob(void)" (??1Blob@Magick@@UEAA@XZ) referenced in function "public: bool __cdecl CubemapTexture::Load(void)" (?Load@CubemapTexture@@QEAA_NXZ)
+ogldev_all.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl Magick::Blob::~Blob(void)" (??1Blob@Magick@@UEAA@XZ)
+cubemap_texture.obj : error LNK2019: unresolved external symbol "public: void const * __cdecl Magick::Blob::data(void)const " (?data@Blob@Magick@@QEBAPEBXXZ) referenced in function "public: bool __cdecl CubemapTexture::Load(void)" (?Load@CubemapTexture@@QEAA_NXZ)
+ogldev_all.obj : error LNK2001: unresolved external symbol "public: void const * __cdecl Magick::Blob::data(void)const " (?data@Blob@Magick@@QEBAPEBXXZ)
+cubemap_texture.obj : error LNK2019: unresolved external symbol "public: __cdecl Magick::Image::Image(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Image@Magick@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: bool __cdecl CubemapTexture::Load(void)" (?Load@CubemapTexture@@QEAA_NXZ)
+ogldev_all.obj : error LNK2001: unresolved external symbol "public: __cdecl Magick::Image::Image(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Image@Magick@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+cubemap_texture.obj : error LNK2019: unresolved external symbol "public: void __cdecl Magick::Image::write(class Magick::Blob *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?write@Image@Magick@@QEAAXPEAVBlob@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: bool __cdecl CubemapTexture::Load(void)" (?Load@CubemapTexture@@QEAA_NXZ)
+ogldev_all.obj : error LNK2001: unresolved external symbol "public: void __cdecl Magick::Image::write(class Magick::Blob *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?write@Image@Magick@@QEAAXPEAVBlob@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+cubemap_texture.obj : error LNK2019: unresolved external symbol "public: struct MagickCore::_Image const * __cdecl Magick::Image::constImage(void)const " (?constImage@Image@Magick@@QEBAPEBU_Image@MagickCore@@XZ) referenced in function "public: unsigned __int64 __cdecl Magick::Image::columns(void)const " (?columns@Image@Magick@@QEBA_KXZ)
+ogldev_all.obj : error LNK2001: unresolved external symbol "public: struct MagickCore::_Image const * __cdecl Magick::Image::constImage(void)const " (?constImage@Image@Magick@@QEBAPEBU_Image@MagickCore@@XZ)
+texture-glyph.obj : error LNK2019: unresolved external symbol vertex_buffer_push_back_indices referenced in function texture_glyph_add_to_vertex_buffer
+texture-glyph.obj : error LNK2019: unresolved external symbol vertex_buffer_push_back_vertices referenced in function texture_glyph_add_to_vertex_buffer
+..\Lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Xarthy\source\repos\OpenGLApplication\x64\Debug\OpenGLApplication.exe : fatal error LNK1120: 8 unresolved externals

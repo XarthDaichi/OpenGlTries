@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\OGLDEV">
+      <UniqueIdentifier>{c97211ee-7052-4f30-8668-eebbd5f710ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="cubemap_texture.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\font_shader.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\font-manager.c">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\freetypeGL.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_backend.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="io_buffer.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="math_3d.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_all.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_app.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_atb.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_backend.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_basic_glfw_camera.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_basic_lighting.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_basic_mesh.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_flat_passthru_technique.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_glfw.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_glfw_backend.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_new_lighting.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_shadow_map_fbo.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_skinned_mesh.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_sprite_technique.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_tex_technique.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_texture.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_util.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_vulkan.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_vulkan_core.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_win32_control.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_world_transform.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ogldev_xcb_control.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeline.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="random_texture.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\stb_image.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="technique.cpp">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\texture-atlas.c">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\texture-font.c">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\texture-glyph.c">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\vector.c">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeGL\vertex-buffer.c">
+      <Filter>Source Files\OGLDEV</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FreetypeGL\font_shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\font-manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\freetypeGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\markup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\texture-atlas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\texture-font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\texture-glyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeGL\vertex-buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_atb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_basic_glfw_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_basic_lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_basic_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_cubemap_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_engine_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_flat_passthru_technique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_glfw_backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_glut_backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_io_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_lights_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_math_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_new_lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_pipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_random_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_shadow_map_fbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_skinned_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_sprite_technique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_tex_technique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_vulkan_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_win32_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_world_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ogldev_xcb_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="technique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
